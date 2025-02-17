@@ -14,11 +14,11 @@ function App() {
       <Head />
       <Nav />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/top" element={<Top />} />
-        <Route path="/bottom" element={<Bottom />} />
-        <Route path="/acc" element={<Accessories />} />
-        <Route path="/shoes" element={<Shoes />} />
+        <Route path="/studyReact/" element={<Home />} />
+        <Route path="/studyReact/top" element={<Top />} />
+        <Route path="/studyReact/bottom" element={<Bottom />} />
+        <Route path="/studyReact/acc" element={<Accessories />} />
+        <Route path="/studyReact/shoes" element={<Shoes />} />
       </Routes>
     </>
   );
