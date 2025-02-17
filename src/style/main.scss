@@ -1,0 +1,64 @@
+$main-color: skyblue;
+$text-color: #333;
+$background-color: pink;
+$main-border: 1px solid #000;
+
+body {
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background-color: $background-color;
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    li {
+      margin-right: 20px;
+      a {
+        text-decoration: none;
+        color: $text-color;
+        padding: 10px 10px;
+        &:hover {
+          color: #fff;
+        }
+      }
+
+      //   &이거는 바로 위에는 태그를 뜻함
+      &:active {
+        background-color: $background-color;
+      }
+    }
+  }
+}
+
+.outBox {
+  display: flex;
+  justify-content: center;
+  border: $main-border;
+}
+
+.page.tops {
+  h1 {
+    text-align: center;
+  }
+}
+
+.inbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: $main-border;
+  img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.inbox:not(:last-child) {
+  margin-right: 100px;
+}

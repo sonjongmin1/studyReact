@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "티셔츠",
+    "price": 5000,
+    "img": "https://www.wooritee.com/data/item/1541999588/thumb-white_280x280.png"
+  },
+  {
+    "id": 2,
+    "name": "티셔츠",
+    "price": 7000,
+    "img": "https://wooritee.com/data/file/story/o1_pc_it1584930774_product-1719303788.png"
+  },
+  {
+    "id": 3,
+    "name": "티셔츠",
+    "price": 9000,
+    "img": "https://www.wooritee.com/data/file/story/o1_pc_it1585276056_product-1708954723.png"
+  }
+]
