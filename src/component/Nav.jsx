@@ -7,19 +7,19 @@ const Nav = () => {
     <div className="nav">
       <ul>
         <li>
-          <Link to="/">홈</Link>
+          <Link to="/studyReact/">홈</Link>
         </li>
         <li>
-          <Link to="/Top">상의</Link>
+          <Link to="/studyReact/Top">상의</Link>
         </li>
         <li>
-          <Link to="/Bottom">하의</Link>
+          <Link to="/studyReact/Bottom">하의</Link>
         </li>
         <li>
-          <Link to="/Accessories">액세사리</Link>
+          <Link to="/studyReact/Accessories">액세사리</Link>
         </li>
         <li>
-          <Link to="/Shoes">신발</Link>
+          <Link to="/studyReact/Shoes">신발</Link>
         </li>
       </ul>
     </div>
